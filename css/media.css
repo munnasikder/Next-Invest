@@ -1,0 +1,214 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*	header*/
+	.logo {
+	    width: 160px;
+	}
+	#nav_cus ul li a {
+	    margin-left: 10px;
+	    margin-top: 10px;
+	}
+	/*	header*/
+	/* banner */
+	.b_text h1 {
+	    font-size: 23px;
+	    line-height: 45px;
+	}
+	.b_text p {
+	    font-size: 17px;
+	}
+	/* banner */
+	/* project */
+	.project{
+		padding: 40px 0;
+	}
+	.p_title h1 {
+	    font-size: 34px;
+	    line-height: 50px;
+	}
+	.p_title p {
+	    font-size: 16px;
+	    line-height: 30px;
+	}
+	.p_btn {
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+	}
+	/* project */
+	/* graph	*/
+	.graph {
+	    padding: 50px 0;
+	}
+	.graph_text h1 {
+	    font-size: 37px;
+	    line-height: 50px;
+	}
+	.graph_text p {
+	    font-size: 17px;
+	}
+	/* graph	*/
+	/* cta	*/
+	.cta {
+	    padding: 50px 0;
+	}
+	.cta_text h1 {
+	    font-size: 24px;
+	    line-height: 50px;
+	}
+	.cta_text p {
+	    font-size: 17px;
+	    line-height: 30px;
+	}
+	.cta_text {
+	    margin-bottom: 30px;
+	}
+	/* cta	*/
+	/*	footer*/
+	footer {
+	    padding: 40px 0;
+	}
+	.f_2 h4 {
+	    margin-top: 20px;
+	}
+	.f_3 h4 {
+	    margin-top: 20px;
+	}
+	.f_4 h4 {
+	    margin-top: 20px;
+	}
+	/*	footer*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*	header*/
+	#nav_cus ul li a {
+	    margin-left: 10px;
+	    margin-top: 10px;
+	}
+	/*	header*/
+	/*	banner*/
+	.b_text h1 {
+	    font-size: 40px;
+	    line-height: 50px;
+	}
+	/*	banner*/
+	/*	project*/
+	.p_title h1 {
+	    font-size: 35px;
+	}
+	.p_title p {
+	    font-size: 16px;
+	}
+	.card_text {
+	    font-size: 14px;
+	}
+	.card_h4 {
+	    font-size: 14px;
+	}
+	/*	project*/
+	/* cta	*/
+	.cta {
+	    padding: 70px 0;
+	}
+	.cta_text {
+	    margin-bottom: 30px;
+	}
+	.cta_text h1 {
+	    font-size: 45px;
+	    line-height: 60px;
+	}
+	.cta_img img {
+	    width: 80%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	/* cta	*/
+	/*	footer*/
+	.f_4 h4 {
+	    font-size: 19px;
+	}
+	/*	footer*/
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*	header*/
+	#nav_cus ul li a {
+	    margin-left: 10px;
+	    margin-top: 10px;
+	}
+	/*	header*/
+	/*	banner*/
+	.b_text h1 {
+	    font-size: 54px;
+	    line-height: 70px;
+	}
+	/*	banner */
+	/* project	*/
+	.p_title p {
+	    font-size: 20px;
+	}
+	/* project	*/
+	/* graph */
+	.graph_text h1 {
+	    font-size: 55px;
+	}
+	.graph_img {
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	/* graph */
+	/* cta	*/
+	.cta_text h1 {
+	    font-size: 27px;
+	    line-height: 45px;
+	}
+	.cta_text p {
+	    font-size: 20px;
+	    line-height: 28px;
+	}
+	/* cta	*/
+	/*	footer*/
+	.f_4 h4 {
+		text-align: center;
+	    margin-top: 30px;
+	}
+	/*	footer*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*	banner*/
+	.b_text h1 {
+	    font-size: 48px;
+	}
+/*	banner*/
+/*graph*/
+	.graph_text h1 {
+	    font-size: 36px;
+	    line-height: 50px;
+	}
+	.graph_text p {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+/*graph*/
+/*cta*/
+	.cta_text h1 {
+	    font-size: 40px;
+	    line-height: 55px;
+	}
+	.cta_text p {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+/*cta*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/*Extra extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
